@@ -1,0 +1,45 @@
+<h1 align="center">
+    FreeDS
+    <br>
+    <a href="#">
+        <img src="https://github.com/pablozg/freeds/wiki/images/logo.png" width="30%">
+    </a>
+</h1>
+
+**!!!WARNING!!!** The last code available is for the 1.0.7 rev2, source code from last betas is not open at the moment and is 100% new, but free to use.
+            You can get info in the telegram Channel: http://t.me/freeds_es or take a look to the community manual: [https://docs.google.com/document/d/1-XLCqHEbpqEPi4geI4CbANmGxodExC__zDvND89xjIU]
+
+Code of version 1.0.7 rev2 is under GPL-3.0 License.
+
+**New Beta releases are under [CC BY-ND 4.0 ](https://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1)**
+
+**FreeDS** is a universal surplus manager and totally independent of the source that generates
+them (whether they come from photovoltaic and/or wind generation), created by Pablo Zerón, tested by Aeizoon and PCB Design by amcalo.
+
+
+**Donate**
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=P2KUJFDMRSGTY)
+
+
+## Dependencies (just to compile)
+- **TickerScheduler** (included in this repository with the necessary patch): [Toshik/TickerScheduler](https://github.com/Toshik/TickerScheduler)
+- **Async MQTT client for ESP8266 and ESP32**: [marvinroger/async-mqtt-client](https://github.com/marvinroger/async-mqtt-client)
+- **ArduinoJson**: [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+- **AsyncTCP**: [me-no-dev/AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+- **ESPAsyncWebServer**: [me-no-dev/ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+- **ThingPulse OLED SSD1306 (ESP8266/ESP32/Mbed-OS)**: [ThingPulse/esp8266-oled-ssd1306](https://github.com/ThingPulse/esp8266-oled-ssd1306)
+- **esp32ModbusTCP**: [bertmelis/esp32ModbusTCP](https://github.com/bertmelis/esp32ModbusTCP)
+
+## Compile
+- **Download Source Code** Clone https://github.com/pablozg/freeds.git or download https://github.com/pablozg/freeds/archive/refs/heads/PID.zip (The source code is only the 1.0.7 Rev2)
+- **Extract lib.zip** Extract the content of lib.zip inside the lib folder.
+- **Use VSCode** Install it.
+- **Install PlatformIO** You need the PlatformIO extension.
+- **Open folder** Open the folder which contains the source code of FreeDS, wait until it finishes installing all required dependencies.
+- **Compile** Compile using the PlatformIO build option or upload directly to the ESP32 board.
+
+## License
+FreeDS 1.0.7 rev2 licensed under the [GPL-3.0 License](https://opensource.org/licenses/GPL-3.0)
+
+FreeDS Beta licensed under [CC BY-ND 4.0 ](https://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1)
